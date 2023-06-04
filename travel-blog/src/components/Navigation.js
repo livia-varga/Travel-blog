@@ -24,8 +24,8 @@ function Navigation() {
                 <ul className={active}>
                     <li className="nav_item"><Link to="#" className="nav_link">Home</Link></li>
                     <li className="nav_item"><Link to="#" className="nav_link">About</Link></li>
-                    <li className="nav_item"><Link to="#" className="nav_link">Skills</Link></li>
-                    <li className="nav_item"><Link to="#" className="nav_link">Portfolio</Link></li>
+                    <li className="nav_item"><Link to="#" className="nav_link">Destinations</Link></li>
+                    <li className="nav_item"><Link to="#" className="nav_link">Gallery</Link></li>
                     <li className="nav_item"><Link to="#" className="nav_link">Contact</Link></li>
                 </ul>
                 <div onClick = {navToggle} className={toggleIcon}>

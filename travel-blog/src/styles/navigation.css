@@ -19,7 +19,12 @@ li {
 
 a{
     text-decoration: none;
-    color:grey;
+    color:black;
+    opacity:0.75;
+}
+
+a:hover {
+    opacity:1;
 }
 
 .nav {
@@ -53,6 +58,15 @@ a{
 .nav_toggler {
     cursor:pointer;
     display:none;
+}
+
+.nav_item {
+    color:black;
+    opacity:0.75;
+}
+
+.nav_item:hover {
+    opacity:1;
 }
 
 @media screen and (max-width:768px) {

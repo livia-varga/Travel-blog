@@ -1,0 +1,23 @@
+.main-pic {
+    position:relative;
+}
+
+.main-text {
+    position:absolute;
+    top:23rem;
+    left:25rem;
+    font-size:50px;
+    color:aliceblue;
+    text-transform: uppercase;
+    font-weight:inherit;
+}
+
+.main-pic p{
+    position:absolute;
+    top:27rem;
+    left:25rem;
+    font-size:20px;
+    color:aliceblue;
+    text-transform: uppercase;
+    font-weight:inherit; 
+}
