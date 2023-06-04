@@ -20,13 +20,13 @@ function Navigation() {
     return (
         <>
             <nav className="nav">
-                <Link to="#" className="nav_brand">Travel Blog</Link>
+                <Link to="/" className="nav_brand">Travel Blog</Link>
                 <ul className={active}>
                     <li className="nav_item"><Link to="#" className="nav_link">Home</Link></li>
                     <li className="nav_item"><Link to="#" className="nav_link">About</Link></li>
                     <li className="nav_item"><Link to="#" className="nav_link">Destinations</Link></li>
                     <li className="nav_item"><Link to="#" className="nav_link">Gallery</Link></li>
-                    <li className="nav_item"><Link to="#" className="nav_link">Contact</Link></li>
+                    <li className="nav_item"><Link to="/kapcsolat" className="nav_link">Contact</Link></li>
                 </ul>
                 <div onClick = {navToggle} className={toggleIcon}>
                     <div className="line1"></div>
