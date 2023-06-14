@@ -3,6 +3,8 @@ import {RouterProvider, createBrowserRouter} from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Layout from './components/Layout';
 import Contactpage from './pages/Contactpage';
+import Postpage from './pages/Postpage';
+import Destinationspage from './pages/Destinationspage';
 
 
 
@@ -18,6 +20,14 @@ const router= createBrowserRouter([
       {
         path: "/kapcsolat",
         element: <Contactpage />
+      },
+      {
+        path: "/post",
+        element: <Postpage />
+      }, 
+      {
+        path: "/destinations",
+        element: <Destinationspage />
       }
     ]
   }
