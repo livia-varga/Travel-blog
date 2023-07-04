@@ -26,13 +26,8 @@ function Navigation() {
                 <div className="top-center">
                 <ul className={active}>
                     <li className="nav_item"><Link to="#" className="nav_link">Home</Link></li>
-                    <li className="nav_item"><Link to="#" className="nav_link">About</Link></li>
-                    <div className="dropdown">
+                    <li className="nav_item"><Link to="/about" className="nav_link">About</Link></li>
                     <li className="nav_item"><Link to="/destinations" className="nav_link">Destinations</Link></li>
-                    <div className="dropdown-menu">
-                        Dropdown Content
-                    </div>
-                    </div>
                     <li className="nav_item"><Link to="#" className="nav_link">Gallery</Link></li>
                     <li className="nav_item"><Link to="/kapcsolat" className="nav_link">Contact</Link></li>
                 </ul>

@@ -5,6 +5,8 @@ import Layout from './components/Layout';
 import Contactpage from './pages/Contactpage';
 import Postpage from './pages/Postpage';
 import Destinationspage from './pages/Destinationspage';
+import BlogsPage from './pages/BlogsPage';
+import Aboutpage from './pages/Aboutpage';
 
 
 
@@ -28,6 +30,14 @@ const router= createBrowserRouter([
       {
         path: "/destinations",
         element: <Destinationspage />
+      },
+      {
+        path: "/blogs",
+        element: <BlogsPage />
+      },
+      {
+        path: "/about",
+        element: <Aboutpage />
       }
     ]
   }

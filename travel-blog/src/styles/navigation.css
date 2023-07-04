@@ -92,27 +92,7 @@ a:hover {
     cursor:pointer;
 }
 
-.dropdown{
-    position:relative;
-}
-.dropdown-menu{
-    position:absolute;
-    top:calc(100% + .25rem);
-    background-color: white;
-    padding:.75rem;
-    border-radius:.25rem;
-    box-shadow:0 2px 5px 0 black;
-    opacity:0;
-    transform:translateY(-10px);
-    transition:opacity 150ms ease-in-out, transform 150ms ease-in-out;
-    pointer-events: none;
-}
 
-.dropdown > .nav_link:focus + .dropdown-menu{
-    opacity:1;
-    transform:translateY(0);
-    pointer-events: auto;
-}
 
 
 
